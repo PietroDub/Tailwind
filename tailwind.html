@@ -6,151 +6,85 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <nav class="bg-white border-b border-gray-200 shadow-sm">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div class="flex h-16 items-center justify-between">
-            <!-- Botão Mobile -->
-            <div class="flex sm:hidden">
-              <button type="button" class="inline-flex items-center justify-center rounded-md p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-controls="mobile-menu" aria-expanded="false">
-                <span class="sr-only">Abrir menu</span>
-                <!-- Ícone do menu (hamburguer) -->
-                <svg class="block h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              </button>
-            </div>
-      
-            <!-- Logo -->
-            <div class="flex items-center">
-              <span class="text-xl font-bold text-gray-900">MinhaLogo</span>
-            </div>
-      
-            <!-- Menu Desktop -->
-            <div class="hidden sm:block">
-              <div class="flex space-x-4">
-                <a href="#" class="text-gray-900 bg-gray-100 rounded-md px-3 py-2 text-sm font-medium">Home</a>
-                <a href="#" class="text-gray-600 hover:bg-gray-100 hover:text-gray-900 rounded-md px-3 py-2 text-sm font-medium">Sobre</a>
-                <a href="#" class="text-gray-600 hover:bg-gray-100 hover:text-gray-900 rounded-md px-3 py-2 text-sm font-medium">Contato</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      
-        <!-- Menu Mobile -->
-        <div class="sm:hidden" id="mobile-menu">
-          <div class="space-y-1 px-2 pt-2 pb-3">
-            <a href="#" class="block bg-gray-100 text-gray-900 rounded-md px-3 py-2 text-base font-medium">Home</a>
-            <a href="#" class="block text-gray-600 hover:bg-gray-100 hover:text-gray-900 rounded-md px-3 py-2 text-base font-medium">Sobre</a>
-            <a href="#" class="block text-gray-600 hover:bg-gray-100 hover:text-gray-900 rounded-md px-3 py-2 text-base font-medium">Contato</a>
-          </div>
-        </div>
-      </nav>
+   <h1>Documentação tailwind</h1>
+   <!--Tamanho de letras-->
+   <h2 class="text-2xl">Tamanho de fonte</h2> 
+    <h3 class="text-sm">Hello World!</h3>  
+    <h3 class="text-base">Hello World!</h3>  
+    <h3 class="text-lg">Hello World!</h3>  
+    <h3 class="text-xl">Hello World!</h3>  
+    <h3 class="text-2xl">Hello World!</h3>  
+    <!--Peso da cor-->
+    <h2 class="text-2xl">Coloração de fonte</h2>
+     <h3 class="text-red-800">Hello World!</h3>  
+      <h3 class="text-blue-500">Hello World!</h3>  
+      <h3 class="text-gray-300">Hello World!</h3>  
+      <h3 class="text-yellow-150">Hello World!</h3>  
+      <h3 class="text-green-100">Hello World!</h3>  
+    <!--Alinhamento de texto -->
+    <h2 class="text-2xl">Alinhamento de texto</h2>
+      <h3 class="text-left">Texto para alinhar</h3>
+      <h3 class="text-center">Texto para alinhar</h3>
+      <h3 class="text-right">Texto para alinhar</h3>
+    <!--Espacamento de letras-->
+    <h2 class="text-2xl">Espacamento de texto</h2>
+      <h3 class="tracking-wide">Espacamento</h3>  
+      <h3 class="tracking-wider">Espacamento</h3>  
+      <h3 class="tracking-widest">Espacamento</h3>  
 
-      <div class="flex justify-center p-8">
-         <h1 class="text-5xl"><b>Lojinha de Trator!</b></h1>
-      </div>
+    <!--Espacamento-->
+    <h1 class="text-2xl m-10">Espacamento entre elementos</h1>
 
-      <!--Cards-->
-
-    <div class="card-super flex justify-center pt-8 space-x-16">
-      <div class="max-w-sm rounded overflow-hidden shadow-lg p-8">
-        <img class="w-full" src="/imgs/trator.jfif" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">Trator Legal</div>
-          <p class="text-gray-700 text-base">
-            Trators legais, bacanas, baratos, nem tanto, e tudo isso em taiwind, compre agora.
-          </p>
-        </div>
-        <div class="px-6 pt-4 pb-2">
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Roda_Grande</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Motor_Automatizado</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Bateria_Elétrica</span>
-        </div>
-      </div>
-
-      <div class="max-w-sm rounded overflow-hidden shadow-lg p-8 ">
-        <img class="w-full" src="/imgs/trator2.jfif" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">Trator Legal</div>
-          <p class="text-gray-700 text-base">
-            Trators legais, bacanas, baratos, nem tanto, e tudo isso em taiwind, compre agora.
-          </p>
-        </div>
-        <div class="px-6 pt-4 pb-2">
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Roda_Grande</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Motor_Automatizado</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Bateria_Elétrica</span>
-        </div>
-      </div>
-
-      <div class="max-w-sm rounded overflow-hidden shadow-lg p-8 ">
-        <img class="w-full" src="/imgs/trator3.jfif" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">Trator Legal</div>
-          <p class="text-gray-700 text-base">
-            Trators legais, bacanas, baratos, nem tanto, e tudo isso em taiwind, compre agora.
-          </p>
-        </div>
-        <div class="px-6 pt-4 pb-2">
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Roda_Grande</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Motor_Automatizado</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Bateria_Elétrica</span>
-        </div>
-      </div>
+    <div>
+      EM: relativo ao tamanho de fonte do body (16px por padrão)
     </div>
 
-    <div class="card-super flex justify-center p-8 space-x-16">
-      <div class="max-w-sm rounded overflow-hidden shadow-lg pr-8">
-        <img class="w-full" src="/imgs/trator3.jfif" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">Trator Legal</div>
-          <p class="text-gray-700 text-base">
-            Trators legais, bacanas, baratos, nem tanto, e tudo isso em taiwind, compre agora.
-          </p>
-        </div>
-        <div class="px-6 pt-4 pb-2">
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Roda_Grande</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Motor_Automatizado</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Bateria_Elétrica</span>
-        </div>
-      </div>
+    <h2 class="text-2xl">Padding</h2>
 
-      <div class="max-w-sm rounded overflow-hidden shadow-lg p-8">
-        <img class="w-full" src="/imgs/trator.jfif" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">Trator Legal</div>
-          <p class="text-gray-700 text-base">
-            Trators legais, bacanas, baratos, nem tanto, e tudo isso em taiwind, compre agora.
-          </p>
-        </div>
-        <div class="px-6 pt-4 pb-2">
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Roda_Grande</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Motor_Automatizado</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Bateria_Elétrica</span>
-        </div>
-      </div>
+    <div class="bg-red p-10">Card Padding 10</div>
+    <div class="bg-red p-5">Card Padding 5</div>
+    <div class="bg-red p-2">Card Padding 2</div>
 
-      <div class="max-w-sm rounded overflow-hidden shadow-lg p-8">
-        <img class="w-full" src="/imgs/trator2.jfif" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">Trator Legal</div>
-          <p class="text-gray-700 text-base">
-            Trators legais, bacanas, baratos, nem tanto, e tudo isso em taiwind, compre agora.
-          </p>
-        </div>
-        <div class="px-6 pt-4 pb-2">
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Roda_Grande</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Motor_Automatizado</span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Bateria_Elétrica</span>
-        </div>
-      </div>
-
-    </div>
-    <footer class="bg-white border-t border-gray-200 py-4 text-center">
-        <h1 class="text-gray-600 text-sm">
-          Feito com Tailwind, por <span class="font-medium">@Pie</span>
-        </h1>
-      </footer>
-      
+    <div class="px-5">Padding no eixo X</div>
+    <div class="py-5">Padding no eixo Y</div>
+    <div class="pt-5">Padding top</div>
+    <div class="pb-5">Padding Bottom</div>
+    <div class="pr-5">Padding Right</div>
+    <div class="pl-5">Paddingo Left</div>
+    <!--O mesmo vale para margin-->
+    <div class="m-5">Margin</div> 
+    
+    <!--Forma de espaçar sem usar o margin-->
+    <span class="space-y-4">1</span>
+    <span class="space-x-4">2</span>
+    <span class="mt-4 mx-4">3</span>
   </body>
 </html>
+
+
+<!--Border-->
+  <h1 class="text-2xl m-10">Border</h1>
+
+    <div class="m-5 border">Texto de teste doido</div>
+    <div class="m-5 border border-red-500">Texto de teste doido</div>
+    <div class="m-5 border p-5">Texto de teste doido</div>
+    <div class="m-5 border-5">Texto de teste doido</div>
+    <div class="m-5 border-l-10">Texto de teste doido</div>
+    <div class="m-5 border-3 rounded">Texto de teste doido</div>
+    <div class="m-5 border-3 rounded-full">Texto de teste doido</div>
+    <div class="m-5 border-3 border-red-500 border-opacity-20">Texto de teste doido</div>
+
+  <h2>Fundo e Ring</h2>
+
+  <button class="bg-blue-400 px-4 rounded text-white ring-red-400">Save</button>
+
+ <!--Background--> 
+  <h1 class="text-2xl m-10">Background</h1>
+   <h2 class="m-5 p-4 bg-gray-400">BackGround color</h2>
+   <h2 class="m-5 p-4 bg-gray-400 bg-opacity-90">Background opacity</h2>
+   <h2 class="m-5 p-4 bg-linear-to-r from-pink-500 to-blue-500">Background Gradient, de uma cor para outra</h2>
+   <h2 class="m-5 p-4 bg-linear-to-l from-pink-500 to-blue-500">Background Gradient, de uma cor para outra</h2>
+   <h2 class="m-5 p-4 bg-linear-to-b from-pink-500 to-blue-500">Background Gradient, de uma cor para outra</h2>
+   <h2 class="m-5 p-4 bg-linear-to-t from-pink-500 to-blue-500">Background Gradient, de uma cor para outra</h2>
+   <div class="bg-[url('/imgs/OIP.jfif')] bg-cover bg-center h-64 w-full"></div>
+ 
